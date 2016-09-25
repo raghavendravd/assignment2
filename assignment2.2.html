@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>HTML form</title>
+	</head>
+	<style>
+		section.one {
+       border-style: solid;
+       width:300px;
+   
+}
+section.two {
+       border-style: solid;
+       width:300px;
+   }
+	
+	
+	</style>
+	<body>
+		<form>
+			<section class="one">
+			<strong>Your Details:</strong><br/><br/>
+			<label>Name:</label>
+			<input type="text" name="text" maxlength="10"><br/>
+			<label>Email:</label>
+			<input type="text" name="email"><br/> <br/>
+			</section><br/><br/>
+	
+		
+	        <section class="two">
+			<strong>Your Review:</strong><br/><br/>
+			<label>How did you here about us? </label>
+			<select>
+				<option value="google">google</option>
+				<option value="yahoo">yahoo</option>
+			</select><br/><br/>	
+			<label>Would use visit again</label><br/><br/>
+			<input type="radio" name="radio" value="yes"> Yes
+			<input type="radio" name="radio" value="No"> No
+			<input type="radio" name="radio" value="Maybe"> May be<br/><br/>
+			<label>Comments:</label><br/>
+			<textarea cols="30" row="5"></textarea><br/><br/>
+			<input type="checkbox" name="checkbox" checked>
+			<label>sign me up for email updates</label><br/>
+			<button type="button" value="Submit review">Submit review</button>
+			</section>
+		</form>
+	
+	
+	</body>
+
+
+
+
+</html>
